@@ -11,12 +11,10 @@ package com.mycompany.biblioteca;
 abstract class Persona {
     private int id;
     private String nombre;
-    private String identificacion;
 
-    public Persona(int id, String nombre, String identificacion) {
+    public Persona(int id, String nombre) {
         this.id = id;
         this.nombre = nombre;
-        this.identificacion = identificacion;
     }
 
     public int getId() {
@@ -35,16 +33,10 @@ abstract class Persona {
         this.nombre = nombre;
     }
 
-    public String getIdentificacion() {
-        return identificacion;
-    }
-
-    public void setIdentificacion(String identificacion) {
-        this.identificacion = identificacion;
-    }
+ 
 
     @Override
     public String toString() {
-        return "ID: " + id + ", Nombre: " + nombre + ", Identificación: " + identificacion;
+        return "ID: " + id + ", Nombre: " + nombre;
     }
 }

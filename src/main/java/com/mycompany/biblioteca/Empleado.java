@@ -12,8 +12,8 @@ class Empleado extends Persona {
     private String puesto;
     private String horario;
 
-    public Empleado(int id, String nombre, String identificacion, String puesto, String horario) {
-        super(id, nombre, identificacion);
+    public Empleado(int id, String nombre, String puesto, String horario) {
+        super(id, nombre);
         this.puesto = puesto;
         this.horario = horario;
     }

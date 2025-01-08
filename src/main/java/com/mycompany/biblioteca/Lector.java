@@ -14,7 +14,7 @@ class Lector extends Persona {
     private String vigenciaCredencial;
 
     public Lector(int id, String nombre, String identificacion, String preferencias, String horasLectura, String vigenciaCredencial) {
-        super(id, nombre, identificacion);
+        super(id, nombre);
         this.preferencias = preferencias;
         this.horasLectura = horasLectura;
         this.vigenciaCredencial = vigenciaCredencial;
