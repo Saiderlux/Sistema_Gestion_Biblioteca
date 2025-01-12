@@ -300,7 +300,7 @@ public class Registrar_libros extends javax.swing.JFrame {
             nuevoId = 10000 + new SecureRandom().nextInt(90000); // Genera ID de 5 dígitos
             idExiste = false;
 
-            try (BufferedReader br = new BufferedReader(new FileReader("libros.txt"))) {
+            try (BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Ssaid\\Documents\\NetBeansProjects\\Biblioteca\\src\\main\\java\\datos_guardados\\libros.txt"))) {
                 String linea;
                 while ((linea = br.readLine()) != null) {
                     String idStr = linea.split(",")[0];

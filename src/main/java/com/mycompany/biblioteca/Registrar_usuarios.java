@@ -26,6 +26,7 @@ public class Registrar_usuarios extends javax.swing.JFrame {
      */
     public Registrar_usuarios() {
         initComponents();
+     
         DefaultComboBoxModel<String> modeloComboBox = (DefaultComboBoxModel<String>) box_tipo_usuario.getModel();
         modeloComboBox.removeAllElements();
         modeloComboBox.addElement("Empleado");
