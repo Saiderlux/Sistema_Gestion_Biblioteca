@@ -5,6 +5,7 @@ com\mycompany\biblioteca\Libro.class
 com\mycompany\biblioteca\pruebas$1.class
 com\mycompany\biblioteca\prestamo_libros$3.class
 com\mycompany\biblioteca\prestamo_libros$1.class
+com\mycompany\biblioteca\Devolucion_libros$2.class
 com\mycompany\biblioteca\Registrar_usuarios$4.class
 com\mycompany\biblioteca\Registrar_libros$2.class
 com\mycompany\biblioteca\Persona.class
@@ -34,10 +35,12 @@ com\mycompany\biblioteca\Registrar_libros$3.class
 com\mycompany\biblioteca\prestamo_libros$2.class
 com\mycompany\biblioteca\Registrar_libros$7.class
 com\mycompany\biblioteca\Registrar_usuarios$5.class
+com\mycompany\biblioteca\Devolucion_libros.class
 com\mycompany\biblioteca\prestamo_libros$5.class
 com\mycompany\biblioteca\prestamo_libros.class
 com\mycompany\biblioteca\Catalogo_de_libros$2.class
 com\mycompany\biblioteca\pruebas$2.class
 com\mycompany\biblioteca\Menu_inicio$1.class
 com\mycompany\biblioteca\Registrar_usuarios$7.class
+com\mycompany\biblioteca\Devolucion_libros$1.class
 com\mycompany\biblioteca\Registrar_libros$5.class
